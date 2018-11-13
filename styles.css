@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+html {
+    background-color: #F7F9FB;
+    color:#31708E;
+    
+
+}
+
+h1 {
+    background-color: #687864;
+    color: #F7F9FB;
+    display: flex;
+    justify-content: center;
+    margin: .4em;
+    padding: .6em;
+    border-radius: .8em;
+}
+
+#weather {
+    background-color: #8FC1E3;
+    color: #F7F9FB;
+    margin: .8em;
+    padding: .8em;
+    border-radius: 1em; 
+    display: flex;
+    flex-flow: column nowrap;    
+    align-items: center;
+}
+
+#results {
+    margin: .2em;    
+}
+
+#cityName, #temperature {
+    padding: .7em;
+    background-color: #5085A5;
+    color: #F7F9FB;
+    border-radius: .8em;
+}
+
+#weatherType, #humidity {
+    padding: .7em;
+    background-color: #31708E;
+    color: #F7F9FB;
+    border-radius: .8em;
+}
